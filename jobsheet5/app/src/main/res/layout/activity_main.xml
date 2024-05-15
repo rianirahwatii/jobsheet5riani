@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Btn2"
+        android:layout_centerHorizontal="true"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="617dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/Btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Btn1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="319dp"
+        android:layout_marginBottom="-147dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/Btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Btn3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginBottom="-150dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/Btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="467dp"
+        android:text="7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="400dp"
+        android:layout_marginBottom="387dp"
+        android:text="RIANI RAHWATI"
+        android:textColor="@android:color/system_error_container_dark"
+        android:textSize="34sp" />
+
+
+</RelativeLayout>
